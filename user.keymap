@@ -63,6 +63,11 @@
  [:editor "ctrl-pmeta-down" :editor.sublime.swapLineDown]
  [:editor "ctrl-shift-j" :editor.unjump]
 
+
+ ;; snippet shortcuts clojure
+ [:editor.clj "ctrl-f ctrl-n" (:snippet.by_key "fun")]
+
+
  [:editor.buster "ctrl-b ctrl-l" :toggle-live]
 
  [:editor.javascript "ctrl-t ctrl-t" (:snippet.by_key "tt")]
