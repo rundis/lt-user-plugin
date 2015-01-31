@@ -1,0 +1,20 @@
+;; Your file has been converted to the new flat format.
+;; Conversion does not preserve comments or indentation.
+;; File is backed up at /Users/mrundberget/Library/Application Support/LightTable/User/user.behaviors.bak
+[
+ [:app :lt.objs.style/set-skin "dark"]
+ [:app :lt.objs.console/set-console-limit 5000]
+ [:app :-lt.objs.intro/show-intro]
+
+ [:editor :lt.objs.editor/no-wrap]
+ [:editor :lt.objs.style/set-theme "default"]
+
+ [:editor.clojure :lt.objs.langs.clj/print-length 1000]
+
+ [:editor.groovy :lt.objs.editor/tab-settings false 4 4]
+ [:editor.groovy :lt.plugins.groovy/client-enable-logging]
+
+ [:editor.transient :-lt.objs.editor.file/dirty-on-change]
+
+ ;;[:app :lt.objs.settings/pair-keymap-diffs]
+]
